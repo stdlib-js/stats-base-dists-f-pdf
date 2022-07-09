@@ -72,7 +72,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.pdf;
+})();
 })();
 </script>
 ```
@@ -156,6 +158,7 @@ y = mypdf( 2.0 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f-pdf@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var d1;
 var d2;
@@ -171,6 +174,7 @@ for ( i = 0; i < 10; i++ ) {
     console.log( 'x: %d, d1: %d, d2: %d, f(x;d1,d2): %d', x.toFixed( 4 ), d1.toFixed( 4 ), d2.toFixed( 4 ), y.toFixed( 4 ) );
 }
 
+})();
 })();
 </script>
 </body>
