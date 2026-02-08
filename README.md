@@ -67,6 +67,11 @@ where `d1` is the numerator degrees of freedom and `d2` is the denominator degre
 To use in Observable,
 
 ```javascript
+pdf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f-pdf@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-f-pdf/tags). For example,
+
+```javascript
 pdf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f-pdf@v0.2.3-umd/browser.js' )
 ```
 
@@ -79,7 +84,7 @@ var pdf = require( 'path/to/vendor/umd/stats-base-dists-f-pdf/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f-pdf@v0.2.3-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f-pdf@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -169,7 +174,7 @@ y = mypdf( 2.0 );
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f-pdf@v0.2.3-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f-pdf@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
