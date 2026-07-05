@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-10)
+## Unreleased (2026-07-05)
+
+<section class="features">
+
+### Features
+
+-   [`82d0e4a`](https://github.com/stdlib-js/stdlib/commit/82d0e4a5005a4dd8a0e8b3e6105427cccfa93cf7) - add C implementation for `stats/base/dists/f/pdf` [(#11201)](https://github.com/stdlib-js/stdlib/pull/11201)
+
+</section>
+
+<!-- /.features -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`82d0e4a`](https://github.com/stdlib-js/stdlib/commit/82d0e4a5005a4dd8a0e8b3e6105427cccfa93cf7) - **feat:** add C implementation for `stats/base/dists/f/pdf` [(#11201)](https://github.com/stdlib-js/stdlib/pull/11201) _(by Kamal Singh Rautela, Philipp Burckhardt)_
 -   [`2e3e0e9`](https://github.com/stdlib-js/stdlib/commit/2e3e0e9f450c5fbcf1cab51d1d87a558afcaa93a) - **bench:** update random value generation for `stats/base/dists/f` [(#10316)](https://github.com/stdlib-js/stdlib/pull/10316) _(by Lokesh Ranjan)_
 
 </details>
@@ -24,9 +35,11 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Kamal Singh Rautela
 -   Lokesh Ranjan
+-   Philipp Burckhardt
 
 </section>
 
