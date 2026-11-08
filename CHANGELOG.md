@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-11-01)
+## Unreleased (2026-11-08)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`4ff1612`](https://github.com/stdlib-js/stdlib/commit/4ff16126926ce482b471012528ec526d39cdd1d2) - **build:** upgrade Boost & compile C++ test fixture runners w C++14 [(#16545)](https://github.com/stdlib-js/stdlib/pull/16545) _(by Mara Averick)_
 -   [`6b37f33`](https://github.com/stdlib-js/stdlib/commit/6b37f33b615ede92b7972f0b1033dd1ae7393f03) - **test:** migrate `stats/base/dists/f/pdf` to ULP-based assertions [(#14853)](https://github.com/stdlib-js/stdlib/pull/14853) _(by Aryan kumar)_
 -   [`67f7557`](https://github.com/stdlib-js/stdlib/commit/67f7557ca13ab425513196b26601e46f8a059ac2) - **chore:** clean-up [(#13283)](https://github.com/stdlib-js/stdlib/pull/13283) _(by Philipp Burckhardt)_
 -   [`82d0e4a`](https://github.com/stdlib-js/stdlib/commit/82d0e4a5005a4dd8a0e8b3e6105427cccfa93cf7) - **feat:** add C implementation for `stats/base/dists/f/pdf` [(#11201)](https://github.com/stdlib-js/stdlib/pull/11201) _(by Kamal Singh Rautela, Philipp Burckhardt)_
@@ -37,11 +38,12 @@
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Aryan kumar
 -   Kamal Singh Rautela
 -   Lokesh Ranjan
+-   Mara Averick
 -   Philipp Burckhardt
 
 </section>
